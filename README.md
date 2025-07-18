@@ -44,7 +44,7 @@ Este repositorio contiene una aplicación web desarrollada en ASP.NET Core Razor
 
 ```json
 "ConnectionStrings": {
-  "DefaultConnection": "Server=localhost;Database=EvaluacionGD;Trusted_Connection=True;TrustServerCertificate=True;"
+  "DefaultConnection": "Server=localhost;Database=EvaluacionGD2;Trusted_Connection=True;TrustServerCertificate=True;"
 }
 
 ▶️ Ejecutar el Proyecto
