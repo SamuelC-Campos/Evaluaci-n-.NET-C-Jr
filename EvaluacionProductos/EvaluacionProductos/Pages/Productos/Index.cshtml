@@ -1,0 +1,26 @@
+﻿@page
+@model EvaluacionProductos.Pages.Productos.IndexModel
+@{
+    ViewData["Title"] = "Productos Vendidos en 2019";
+}
+
+<h2>Productos Vendidos en 2019</h2>
+
+<form method="get">
+    <label for="categoria">Selecciona una categoría:</label>
+    <select asp-for="CategoriaSeleccionadaId" asp-items="Model.CategoriasSelectList">
+        <option value="">-- Selecciona --</option>
+    </select>
+    <input type="submit" value="Filtrar" />
+</form>
+
+@if (Model.Productos != null && Model.Productos.Any())
+{
+    <h3>Productos:</h3>
+    <ul>
+        @foreach (var producto in Model.Productos)
+        {
+            <li>@producto.Nombre</li>
+        }
+    </ul>
+}
