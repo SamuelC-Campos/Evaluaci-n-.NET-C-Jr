@@ -6,7 +6,8 @@ Este repositorio contiene una aplicación web desarrollada en ASP.NET Core Razor
 
 ## 📁 Estructura del Proyecto
 
-├── EvaluacionGD.bak # Respaldo (.bak) de la base de datos SQL Server
+├── scriptsSQL (.sql) de la base de datos SQL Server
+
 └── EvaluacionProductos/ # Proyecto ASP.NET Razor Pages
 
 ---
