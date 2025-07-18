@@ -23,19 +23,15 @@ Este repositorio contiene una aplicación web desarrollada en ASP.NET Core Razor
 
 ---
 
-## 💾 Restaurar la base de datos `EvaluacionGD`
+## 🛠️ Configuración de la base de datos con `scripsSQL.sql`
 
-1. **Abrir SQL Server Management Studio (SSMS)**.
-2. Conectarse al servidor local (ej. `localhost` o `.\SQLEXPRESS`).
-3. Hacer clic derecho sobre "Bases de datos" y seleccionar:  
-   **Tareas > Restaurar base de datos...**
-4. En "Origen", seleccionar:
-   - **Dispositivo**
-   - Cargar el archivo `EvaluacionGD.bak`
-5. Asignar nombre a la base: `EvaluacionGD` (o el nombre original si lo deseas igual).
-6. Confirmar y restaurar.
+1. Abre **SQL Server Management Studio (SSMS)**.
+2. Conéctate a tu servidor local (por ejemplo, `localhost`).
+3. Crea una nueva consulta (Ctrl + N).
+4. Abre y ejecuta el archivo `scriptsSQL.sql` (incluido en este repositorio).
+5. Verifica que se haya creado la base de datos con el nombre `EvaluacionGD2`.
 
-✅ ¡La base de datos estará lista para usarse!
+✅ ¡Base de datos lista para usar!
 
 ---
 
